@@ -11,7 +11,8 @@ class Graph:
         """
         Add a vertex to the graph.
         """
-        pass  # TODO
+         # TODO
+        self.vertices[vertex] = set()
     def add_edge(self, v1, v2):
         """
         Add a directed edge to the graph.
@@ -22,6 +23,24 @@ class Graph:
         Print each vertex in breadth-first order
         beginning from starting_vertex.
         """
+        # * Steps to compelete the traversal
+
+        # * Create an empty queue using the provided queue
+        q = Queue()
+        # * Create a set to store the nodes that we have visited
+        visited = set()
+        # * Add starting_vertex to the queue
+        
+        # * While queue is not empty
+        # * Iterate through each level starting at first vert
+
+        # * Dequeue first vertex in the queue
+
+        # * If it hasn't been visited yet, visit it (add it to the set)
+
+        # * Add it's neighbors to the queue
+
+
         pass  # TODO
     def dft(self, starting_vertex):
         """
